@@ -1,0 +1,47 @@
+.Main-div{
+  background-color: rgb(243, 233, 233);
+}
+.todo-div{
+  background: bisque;
+  border: 1px solid;
+  text-align: center;
+  width: 400px;
+  height: auto;
+  margin: 0 auto;
+}
+@media (min-width : 1000px){
+  .todo-div{
+      background-color: blue;
+  }
+}
+h2{
+  color: rgb(150, 15, 15);
+}
+input{
+  padding: 10px;
+  background: b;
+  background: black;
+  color: white;
+  border: 2px snow;
+  border-radius: 10px;
+}
+button{
+  padding: 10px;
+    background: aqua;
+    border-radius: 10px;
+    margin: 5px;
+    color: green;
+    font-weight: bold;
+}
+i{
+  background-color: rgb(13, 235, 50);
+  color: antiquewhite;
+  padding: 5px;
+  border-radius: 10px;
+}
+i:hover{
+  background-color: red;
+}
+li{
+  margin-left: 5px;
+}
